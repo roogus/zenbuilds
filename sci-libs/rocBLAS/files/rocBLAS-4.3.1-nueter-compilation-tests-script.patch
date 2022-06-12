@@ -1,0 +1,13 @@
+diff --git a/header_compilation_tests.sh b/header_compilation_tests.sh
+index c862b07..06151f3 100755
+--- a/header_compilation_tests.sh
++++ b/header_compilation_tests.sh
+@@ -9,7 +9,7 @@ script=$(realpath "$0")
+ build_first()
+ {
+     echo "Please run this script after at least one build of rocBLAS."
+-    exit 1
++    exit 0
+ }
+ 
+ BUILD_DIR=$(realpath "$(pwd)")

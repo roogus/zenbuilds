@@ -1,2 +1,2 @@
 # zenbuilds
-Various ebuilds not found in the main tree, as well as possible customizations to existing ebuilds.
+Various ebuilds not found in the main Gentoo tree, as well as possible customizations to existing ebuilds.

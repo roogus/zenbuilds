@@ -1,0 +1,14 @@
+diff --git a/platform/command.hpp b/platform/command.hpp
+index 47bc74ac..838737a5 100644
+--- a/platform/command.hpp
++++ b/platform/command.hpp
+@@ -44,7 +44,8 @@
+ #include "platform/activity.hpp"
+ #include "platform/command_utils.hpp"
+ 
+-#include "CL/cl_ext.h"
++#include <CL/cl_ext.h>
++#include <CL/cl_gl.h>
+ 
+ #include <algorithm>
+ #include <atomic>
