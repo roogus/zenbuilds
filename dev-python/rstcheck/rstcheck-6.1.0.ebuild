@@ -24,7 +24,7 @@ BDEPEND="
 	<dev-python/types-docutils-0.19.0[${PYTHON_USEDEP}]
 	<dev-python/pydantic-2.0.0[${PYTHON_USEDEP}]
 	<dev-python/typer-5.0.0[${PYTHON_USEDEP}]
-	<dev-python/sphinx-5.0.0[${PYTHON_USEDEP}]
+	>=dev-python/sphinx-5.0.0[${PYTHON_USEDEP}]
 	<dev-python/tomli-3.0.0[${PYTHON_USEDEP}]
 	doc? (
 		>=dev-python/sphinx-autobuild-1.8.4[${PYTHON_USEDEP}]
