@@ -39,6 +39,7 @@ src_prepare() {
 		|| die "sed PIC failed"
 	sed -i -e 's:if PIC:ifdef __PIC__:' mpi/sparc32v8/mpih-mul{1,2}.S || \
 		die "sed PIC failed"
+	eapply_user
 }
 
 src_configure() {
